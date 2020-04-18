@@ -8,13 +8,13 @@ public class MoodAnalyserTesting {
     {
         MoodAnalyser moodAnalyser=new MoodAnalyser();
         boolean mood = moodAnalyser.analyseMood("I am in Happy Mood");
-        Assert.assertEquals(true,true);
+        Assert.assertEquals(true,mood);
     }
     @Test
-    public void givenMessage_ContainsHappyMood_ReturnTrue()
+    public void givenMessage_ContainsSadMood_ReturnTrue()
     {
         MoodAnalyser moodAnalyser=new MoodAnalyser();
         boolean mood = moodAnalyser.analyseMood("I am in Sad Mood");
-        Assert.assertEquals(false,false);
+        Assert.assertEquals(true,mood);
     }
 }

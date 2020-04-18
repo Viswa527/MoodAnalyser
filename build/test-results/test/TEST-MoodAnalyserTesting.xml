@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="MoodAnalyserTesting" tests="2" skipped="0" failures="0" errors="0" timestamp="2020-04-18T15:34:18" hostname="DESKTOP-9J6MPIC" time="0.005">
+<testsuite name="MoodAnalyserTesting" tests="2" skipped="0" failures="0" errors="0" timestamp="2020-04-18T15:49:28" hostname="DESKTOP-9J6MPIC" time="0.004">
   <properties/>
-  <testcase name="givenMessage_ContainsHappyMood_ReturnsTrue" classname="MoodAnalyserTesting" time="0.004"/>
-  <testcase name="givenMessage_ContainsHappyMood_ReturnTrue" classname="MoodAnalyserTesting" time="0.0"/>
+  <testcase name="givenMessage_ContainsHappyMood_ReturnsTrue" classname="MoodAnalyserTesting" time="0.003"/>
+  <testcase name="givenMessage_ContainsSadMood_ReturnTrue" classname="MoodAnalyserTesting" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
