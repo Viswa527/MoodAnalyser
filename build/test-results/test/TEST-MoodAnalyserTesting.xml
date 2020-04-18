@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="MoodAnalyserTesting" tests="3" skipped="0" failures="0" errors="0" timestamp="2020-04-18T15:56:55" hostname="DESKTOP-9J6MPIC" time="0.004">
+<testsuite name="MoodAnalyserTesting" tests="3" skipped="0" failures="0" errors="0" timestamp="2020-04-18T16:04:23" hostname="DESKTOP-9J6MPIC" time="0.004">
   <properties/>
   <testcase name="givenMessage_ContainsSadMood_ReturnsTrue" classname="MoodAnalyserTesting" time="0.003"/>
   <testcase name="givenMessage_ContainsAnyMood_ReturnsTrue" classname="MoodAnalyserTesting" time="0.0"/>

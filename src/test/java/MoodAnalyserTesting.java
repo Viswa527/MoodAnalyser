@@ -6,8 +6,8 @@ public class MoodAnalyserTesting {
     @Test
     public void givenMessage_ContainsSadMood_ReturnsTrue()
     {
-        MoodAnalyser moodAnalyser=new MoodAnalyser();
-        String mood = moodAnalyser.analyseMood("I am in Sad Mood");
+        MoodAnalyser moodAnalyser=new MoodAnalyser("I am in Sad Mood");
+        String mood = moodAnalyser.analyseMood();
         Assert.assertEquals("Sad",mood);
     }
     @Test
@@ -20,8 +20,8 @@ public class MoodAnalyserTesting {
     @Test
     public void givenMessage_ContainsAnyMood_ReturnsTrue()
     {
-        MoodAnalyser moodAnalyser=new MoodAnalyser();
-        String mood = moodAnalyser.analyseMood("I am in Any Mood");
+        MoodAnalyser moodAnalyser=new MoodAnalyser("I am in Any Mood");
+        String mood = moodAnalyser.analyseMood();
         Assert.assertEquals("Happy",mood);
     }
 
