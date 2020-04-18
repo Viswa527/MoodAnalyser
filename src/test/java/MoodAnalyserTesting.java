@@ -7,14 +7,8 @@ public class MoodAnalyserTesting {
     public void givenMessage_ContainsHappyMood_ReturnsTrue()
     {
         MoodAnalyser moodAnalyser=new MoodAnalyser();
-        boolean mood = moodAnalyser.analyseMood("I am in Happy Mood");
-        Assert.assertEquals(true,mood);
+        String mood = moodAnalyser.analyseMood("I am in Sad Mood");
+        Assert.assertEquals("Sad",mood);
     }
-    @Test
-    public void givenMessage_ContainsSadMood_ReturnTrue()
-    {
-        MoodAnalyser moodAnalyser=new MoodAnalyser();
-        boolean mood = moodAnalyser.analyseMood("I am in Sad Mood");
-        Assert.assertEquals(true,mood);
-    }
+
 }
