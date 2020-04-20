@@ -59,10 +59,6 @@ public class MoodAnalyserTestcase {
             e.printStackTrace();
         }
     }
-    @Test
-    public void givenClassName_IsImproper_ThrowException()
-    {
 
-    }
 }
 
